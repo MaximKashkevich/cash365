@@ -1,0 +1,46 @@
+<svg width="238" height="55" viewBox="0 0 238 55" fill="none" xmlns="http://www.w3.org/2000/svg">
+<mask id="mask0_1_205" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="238" height="55">
+<rect width="238" height="55" fill="url(#paint0_radial_1_205)"/>
+</mask>
+<g mask="url(#mask0_1_205)">
+<circle cx="6.5" cy="4.5" r="1.5" fill="#D9D9D9"/>
+<circle cx="29.5" cy="4.5" r="1.5" fill="#D9D9D9"/>
+<circle cx="52.5" cy="4.5" r="1.5" fill="#D9D9D9"/>
+<circle cx="75.5" cy="4.5" r="1.5" fill="#D9D9D9"/>
+<circle cx="98.5" cy="4.5" r="1.5" fill="#D9D9D9"/>
+<circle cx="121.5" cy="4.5" r="1.5" fill="#D9D9D9"/>
+<circle cx="144.5" cy="4.5" r="1.5" fill="#D9D9D9"/>
+<circle cx="167.5" cy="4.5" r="1.5" fill="#D9D9D9"/>
+<circle cx="190.5" cy="4.5" r="1.5" fill="#D9D9D9"/>
+<circle cx="213.5" cy="4.5" r="1.5" fill="#D9D9D9"/>
+<circle cx="236.5" cy="4.5" r="1.5" fill="#D9D9D9"/>
+<circle cx="6.5" cy="27.5" r="1.5" fill="#D9D9D9"/>
+<circle cx="29.5" cy="27.5" r="1.5" fill="#D9D9D9"/>
+<circle cx="52.5" cy="27.5" r="1.5" fill="#D9D9D9"/>
+<circle cx="75.5" cy="27.5" r="1.5" fill="#D9D9D9"/>
+<circle cx="98.5" cy="27.5" r="1.5" fill="#D9D9D9"/>
+<circle cx="121.5" cy="27.5" r="1.5" fill="#D9D9D9"/>
+<circle cx="144.5" cy="27.5" r="1.5" fill="#D9D9D9"/>
+<circle cx="167.5" cy="27.5" r="1.5" fill="#D9D9D9"/>
+<circle cx="190.5" cy="27.5" r="1.5" fill="#D9D9D9"/>
+<circle cx="213.5" cy="27.5" r="1.5" fill="#D9D9D9"/>
+<circle cx="236.5" cy="27.5" r="1.5" fill="#D9D9D9"/>
+<circle cx="6.5" cy="50.5" r="1.5" fill="#D9D9D9"/>
+<circle cx="29.5" cy="50.5" r="1.5" fill="#D9D9D9"/>
+<circle cx="52.5" cy="50.5" r="1.5" fill="#D9D9D9"/>
+<circle cx="75.5" cy="50.5" r="1.5" fill="#D9D9D9"/>
+<circle cx="98.5" cy="50.5" r="1.5" fill="#D9D9D9"/>
+<circle cx="121.5" cy="50.5" r="1.5" fill="#D9D9D9"/>
+<circle cx="144.5" cy="50.5" r="1.5" fill="#D9D9D9"/>
+<circle cx="167.5" cy="50.5" r="1.5" fill="#D9D9D9"/>
+<circle cx="190.5" cy="50.5" r="1.5" fill="#D9D9D9"/>
+<circle cx="213.5" cy="50.5" r="1.5" fill="#D9D9D9"/>
+<circle cx="236.5" cy="50.5" r="1.5" fill="#D9D9D9"/>
+</g>
+<defs>
+<radialGradient id="paint0_radial_1_205" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(119 27.5) scale(119 60.2668)">
+<stop stop-color="#D9D9D9"/>
+<stop offset="1" stop-color="#D9D9D9" stop-opacity="0"/>
+</radialGradient>
+</defs>
+</svg>
