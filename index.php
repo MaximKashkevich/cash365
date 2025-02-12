@@ -590,7 +590,7 @@ SEPA Lastschriften
 </main>
 
 <style>
-/* Основные стили для контейнера карты */
+/* Основные стили */
 .map-container {
     overflow-x: auto;
     overflow-y: hidden;
@@ -641,6 +641,12 @@ SEPA Lastschriften
     cursor: pointer;
 }
 
+@media (min-width: 768px) {
+    .continent-buttons {
+        display: none;
+    }
+}
+
 /* Стили для адаптивного дизайна */
 @media (max-width: 992px) {
     .continent-block {
@@ -652,7 +658,7 @@ SEPA Lastschriften
     }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 768px) {    
     /* Кнопки категорий */
     .continent-buttons {
         display: flex;
@@ -674,21 +680,16 @@ SEPA Lastschriften
         text-align: center;
         padding: 8px;
     }
-    
-    .continent-btn:hover {
+
+    /* Активная кнопка */
+    .continent-btn.active {
         background-color: rgba(21, 40, 88, 1);
         color: rgba(247, 247, 247, 1);
     }
 
-    /* Континентальные блоки на всю ширину */
-    .continent-container {
-        display: flex;
-        flex-direction: column;
-        gap: 10px;
-        width: 100%;
-    }
-    
+    /* Континентальные блоки скрыты по умолчанию */
     .continent-block {
+        display: none;
         width: 100%;
         padding: 10px;
         background: rgba(247, 247, 247, 1);
@@ -707,7 +708,6 @@ SEPA Lastschriften
         text-align: center;
     }
     
-    /* Компактное отображение списка стран в 3 колонки */
     .list-country {
         list-style: none;
         padding: 0;
@@ -724,11 +724,10 @@ SEPA Lastschriften
         text-align: center;
     }
 
-    /* Карта */
     .map-container {
         overflow-x: auto;
         white-space: nowrap;
-        display: block;
+        display: none;
     }
     
     .img-map {
@@ -738,6 +737,15 @@ SEPA Lastschriften
     }
 }
 
+@media (max-width: 768px) {
+    .continent-container {
+        display: none; /* Скрываем контейнер континентов */
+    }
+
+    .map-container{
+        display: flex
+    }
+}
 </style>
 
 <script>
@@ -798,6 +806,7 @@ document.addEventListener('DOMContentLoaded', function () {
     const continentButtonsContainer = document.querySelector('.continent-buttons'); 
     const continentBlocks = document.querySelectorAll('.continent-block'); 
     const mapContainer = document.querySelector('.map-container');
+    const continentContainer = document.querySelector('.continent-container');
 
     // Создание кнопок для каждого континента
     continentBlocks.forEach(block => {
@@ -808,13 +817,19 @@ document.addEventListener('DOMContentLoaded', function () {
         button.dataset.region = block.dataset.mapRegion;
 
         button.addEventListener('click', function () {
-            // Скрываем все континенты
+            // Скрываем все континенты и удаляем активные кнопки
             continentBlocks.forEach(b => b.style.display = 'none');
             mapContainer.style.display = 'none';
+
+            document.querySelectorAll('.continent-btn').forEach(btn => btn.classList.remove('active'));
 
             // Показываем выбранный континент и карту
             block.style.display = 'block';
             mapContainer.style.display = 'block';
+            continentContainer.style.display = 'flex'; // Показываем контейнер континентов
+
+            // Добавляем активный стиль кнопке
+            button.classList.add('active');
         });
 
         continentButtonsContainer.appendChild(button);
@@ -824,6 +839,7 @@ document.addEventListener('DOMContentLoaded', function () {
     if (window.innerWidth <= 768) {
         continentBlocks.forEach(block => block.style.display = 'none');
         mapContainer.style.display = 'none';
+        continentContainer.style.display = 'none'; // Скрываем контейнер континентов
     }
 });
 
