@@ -171,7 +171,7 @@
 
             </div>
             <div class="mack-book__container">               
-                    <img class="main-img__container-img--2"  src="<?php echo get_template_directory_uri(); ?>/img/image365Stats.png" alt="">
+                    <img class="main-img__container-img--2"  src="<?php echo get_template_directory_uri(); ?>/img/EchtzeitBalance.png" alt="">
                 <div class="owner-text">
                     <div class="text-mini-img__container">
                         <img src="<?php echo get_template_directory_uri(); ?>/img/colo-medium.svg" alt="">
@@ -187,25 +187,25 @@
                     <div class="text-mini-img__container">
                         <img class="" src="<?php echo get_template_directory_uri(); ?>/img/colo-medium.svg" alt="">
                         <h4 class="step-by-step__title">
-    Automatisierte Prozesse
+                            Automatisierte Prozesse
                         </h4>
                     </div>
 
                     <p class="step-by-step__text"><?php the_field('automatisierte_prozesse'); ?> </p>
                 </div>
                 <picture class="main-img__container-img image365">
-                    <img class=" main-img__container-img--2 image2" src="<?php echo get_template_directory_uri(); ?>/img/image365Dynamic.png" alt="">
+                    <img class=" main-img__container-img--2 image2" src="<?php echo get_template_directory_uri(); ?>/img/MackBookTwo.png" alt="MackBookTwo">
                 </picture>
             </div>
             <div class="mack-book__container">
                 <picture class="main-img__container-img">
-                    <img class=" main-img__container-img" src="<?php echo get_template_directory_uri(); ?>/img/document-money.png" alt="">
+                    <img class=" main-img__container-img" src="<?php echo get_template_directory_uri(); ?>/img/Cash365Money.jpg" alt="">
                 </picture>
                 <div class="owner-text">
                     <div class="text-mini-img__container">
                         <img src="<?php echo get_template_directory_uri(); ?>/img/colo-medium.svg" alt="">
                         <h4 class="step-by-step__title">
-SEPA Lastschriften
+                            SEPA Lastschriften
                         </h4>
                     </div>
                     <p class="step-by-step__text"><?php the_field('sepa_lastschriften'); ?></p>
@@ -228,7 +228,7 @@ SEPA Lastschriften
             </div>
             <div class="mack-book__container">
                 <picture class="main-img__container-img">
-                    <img class=" main-img__container-img"  src="<?php echo get_template_directory_uri(); ?>/img/image2 1.svg" alt="">
+                    <img class=" main-img__container-img"  src="<?php echo get_template_directory_uri(); ?>/img/WorkCash365.png" alt="">
                 </picture>
                 <div class="owner-text">
                     <div class="text-mini-img__container">
@@ -302,85 +302,20 @@ SEPA Lastschriften
 
 
     <div class="ownre-tehnologi-container"> 
-        <div class="tehnologi-container"> 
-            <!-- <div class="mask-container">  -->
-                <!-- <picture class="img--1"> 
-                    <source srcset="<?php echo get_template_directory_uri(); ?>/img/left-maksumu-bigss.svg" media="(min-width: 1401px) and (max-width: 3840px)"> 
-                    <source srcset="<?php echo get_template_directory_uri(); ?>/img/Mask-group-big-79.svg" media="(min-width: 961px) and (max-width: 1400px)"> 
-                    <source srcset="<?php echo get_template_directory_uri(); ?>/img/Mask-group-big-left.svg" media="(min-width: 640px) and (max-width: 960px)"> 
-                    <img src="<?php echo get_template_directory_uri(); ?>/img/Mask-group-left.svg" alt=""> 
-                </picture> 
-                <picture class="img--2"> 
-                    <source srcset="<?php echo get_template_directory_uri(); ?>/img/right-bigest-makss.svg" media="(min-width: 1401px) and (max-width: 3840px)"> 
-                    <source srcset="<?php echo get_template_directory_uri(); ?>/img/Mask-group-big-78.svg" media="(min-width: 961px) and (max-width: 1400px)"> 
-                    <source srcset="<?php echo get_template_directory_uri(); ?>/img/Mask-group-big-right.svg" media="(min-width: 640px) and (max-width: 960px)"> 
-                    <img src="<?php echo get_template_directory_uri(); ?>/img/Mask-group-right.svg" alt=""> 
-                </picture>  -->
-                <!-- <div class="img--1">
-                    <object 
-                        type="image/svg+xml" 
-                        data="<?php echo get_template_directory_uri(); ?>/img/left-maksumu-bigss.svg"
-                        class="desktop-img"
-                        media="(min-width: 1401px) and (max-width: 3840px)">
-                    </object>
-                    <object 
-                        type="image/svg+xml" 
-                        data="<?php echo get_template_directory_uri(); ?>/img/Mask-group-big-79.svg"
-                        class="tablet-img"
-                        media="(min-width: 961px) and (max-width: 1400px)">
-                    </object>
-                    <object 
-                        type="image/svg+xml" 
-                        data="<?php echo get_template_directory_uri(); ?>/img/Mask-group-big-left.svg"
-                        class="mobile-img"
-                        media="(min-width: 640px) and (max-width: 960px)">
-                    </object>
-                    <object 
-                        type="image/svg+xml" 
-                        data="<?php echo get_template_directory_uri(); ?>/img/Mask-group-left.svg"
-                        class="default-img">
-                    </object>
-                </div> -->
+                <div class="tehnologi-container">
+                <div class="tehnologi-container__text">
+                    <p class="tehnologi-text">Warum Cash 365?</p>
+                    <p class="tehnologi-big__text">Mit Cash 365 wird Ihr Finanzmanagement smarter, schneller und sicherer.</p>
+                    <a href="#footer">
+                        <button class="button-white--2 tehnologi-button">Kontaktieren Sie uns <img src="<?php echo get_template_directory_uri(); ?>/img/Arrow 2.svg" alt="Arrow"></button>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    
 
-                <div class="container__card1">
-                    <!-- <object 
-                        type="image/svg+xml" 
-                        data="<?php echo get_template_directory_uri(); ?>/img/right-bigest-makss.svg"
-                        class="desktop-img">
-                    </object>
-                    <object 
-                        type="image/svg+xml" 
-                        data="<?php echo get_template_directory_uri(); ?>/img/Mask-group-big-78.svg"
-                        class="tablet-img">
-                    </object>
-                    <object 
-                        type="image/svg+xml" 
-                        data="<?php echo get_template_directory_uri(); ?>/img/Mask-group-big-right.svg"
-                        class="mobile-img">
-                    </object> -->
-                    <!-- <object 
-                        type="image/svg+xml" 
-                        data="<?php echo get_template_directory_uri(); ?>/img/Mask-group-right.svg"
-                        class="default-img">
-                    </object> -->
-                    <img class="cardBackground" src="<?php echo get_template_directory_uri(); ?>/img/cardBackground.svg" alt="">
-                </div>
-                <div class="container__card2">
-                    <img class="cardBackground small" src="<?php echo get_template_directory_uri(); ?>/img/cardBackgroundSmall.svg" alt="">
-                </div>
-            <!-- </div>  -->
-            <div class="tehnologi-container__text"> 
-                <p class="tehnologi-text">Warum Cash 365?</p> 
-                <p class="tehnologi-big__text"> 
-                Mit Cash 365 wird Ihr Finanzmanagement smarter, schneller und sicherer. 
-                </p> 
-                <a href="#footer">
-                    <button class="button-white--2 tehnologi-button">Kontaktieren Sie uns <img src="<?php echo get_template_directory_uri(); ?>/img/Arrow 2.svg" alt=""></button> 
-                </a>
-            </div> 
-            <img src="<?php echo get_template_directory_uri(); ?>" alt="">
-        </div>
-        </div>
+    
 
 
     <section class="about-us">
@@ -582,171 +517,20 @@ SEPA Lastschriften
 
 <!-- Map container -->
 <div class="map-container">
-    <img class="img-map" src="<?php echo get_template_directory_uri(); ?>/img/Maps Illustrator-01 1.png" alt="">
+    <img class="img-map" 
+        src="<?php echo get_template_directory_uri(); ?>/img/MapNonHover.png" 
+        alt="map" 
+        id="mapImage"
+        data-hover-src="<?php echo get_template_directory_uri(); ?>/img/MapHover.png"
+        data-default-src="<?php echo get_template_directory_uri(); ?>/img/MapNonHover.png"
+    >
+
 </div>
 
 
     </div>
 </main>
 
-<style>
-/* Основные стили */
-.map-container {
-    overflow-x: auto;
-    overflow-y: hidden;
-    white-space: nowrap;
-    display: flex;
-    justify-content: center;
-    touch-action: pan-x;
-}
-
-.img-map {
-    width: auto;
-    height: auto;
-    max-width: none;
-    max-height: 100vh;
-    min-width: 400px;
-    cursor: grab;
-}
-
-.map-container:active .img-map {
-    cursor: grabbing;
-}
-
-.continent-container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: flex-start;
-}
-
-.continent-block {
-    width: 33.33%;
-    margin-bottom: 20px;
-    padding: 10px;
-    background: rgba(247, 247, 247, 1);
-    box-sizing: border-box;
-}
-
-.list-country {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-gap: 10px;
-    align-items: start;
-}
-
-.link-country {
-    cursor: pointer;
-}
-
-@media (min-width: 768px) {
-    .continent-buttons {
-        display: none;
-    }
-}
-
-/* Стили для адаптивного дизайна */
-@media (max-width: 992px) {
-    .continent-block {
-        width: 50%;
-    }
-    
-    .list-country {
-        grid-template-columns: repeat(2, 1fr);
-    }
-}
-
-@media (max-width: 768px) {    
-    /* Кнопки категорий */
-    .continent-buttons {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-        margin-bottom: 10px;
-    }
-    
-    .continent-btn {
-        background-color: rgba(247, 247, 247, 1);
-        color: rgba(21, 40, 88, 1);
-        font-weight: 700;
-        margin: 5px;
-        border: none;
-        border-radius: 5px;
-        cursor: pointer;
-        font-size: 14px;
-        width: 45%;
-        text-align: center;
-        padding: 8px;
-    }
-
-    /* Активная кнопка */
-    .continent-btn.active {
-        background-color: rgba(21, 40, 88, 1);
-        color: rgba(247, 247, 247, 1);
-    }
-
-    /* Континентальные блоки скрыты по умолчанию */
-    .continent-block {
-        display: none;
-        width: 100%;
-        padding: 10px;
-        background: rgba(247, 247, 247, 1);
-        border-radius: 5px;
-        justify-content: center;
-        display: flex;
-        align-items: center;
-        box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.1);
-        font-size: 14px;
-        text-align: left;
-    }
-    
-    .continent-block h2 {
-        font-size: 16px;
-        margin-bottom: 5px;
-        text-align: center;
-    }
-    
-    .list-country {
-        list-style: none;
-        padding: 0;
-        margin-top: 5px;
-        padding-top: 5px;
-        display: grid;
-        grid-template-columns: repeat(3, 1fr);
-        gap: 5px;
-    }
-    
-    .list-country li {
-        font-size: 12px;
-        margin-bottom: 2px;
-        text-align: center;
-    }
-
-    .map-container {
-        overflow-x: auto;
-        white-space: nowrap;
-        display: none;
-    }
-    
-    .img-map {
-        width: 100%;
-        height: auto;
-        display: block;
-    }
-}
-
-@media (max-width: 768px) {
-    .continent-container {
-        display: none; /* Скрываем контейнер континентов */
-    }
-
-    .map-container{
-        display: flex
-    }
-}
-</style>
 
 <script>
 
@@ -807,6 +591,7 @@ document.addEventListener('DOMContentLoaded', function () {
     const continentBlocks = document.querySelectorAll('.continent-block'); 
     const mapContainer = document.querySelector('.map-container');
     const continentContainer = document.querySelector('.continent-container');
+    const mapImage = document.getElementById('mapImage');
 
     // Создание кнопок для каждого континента
     continentBlocks.forEach(block => {
@@ -819,13 +604,10 @@ document.addEventListener('DOMContentLoaded', function () {
         button.addEventListener('click', function () {
             // Скрываем все континенты и удаляем активные кнопки
             continentBlocks.forEach(b => b.style.display = 'none');
-            mapContainer.style.display = 'none';
-
             document.querySelectorAll('.continent-btn').forEach(btn => btn.classList.remove('active'));
 
-            // Показываем выбранный континент и карту
+            // Показываем выбранный континент
             block.style.display = 'block';
-            mapContainer.style.display = 'block';
             continentContainer.style.display = 'flex'; // Показываем контейнер континентов
 
             // Добавляем активный стиль кнопке
@@ -835,12 +617,25 @@ document.addEventListener('DOMContentLoaded', function () {
         continentButtonsContainer.appendChild(button);
     });
 
-    // Изначально скрываем все континенты и карту на мобильных устройствах
+    // Убедимся, что карта всегда отображается на мобильных устройствах
     if (window.innerWidth <= 768) {
         continentBlocks.forEach(block => block.style.display = 'none');
-        mapContainer.style.display = 'none';
         continentContainer.style.display = 'none'; // Скрываем контейнер континентов
     }
+});
+
+window.addEventListener("load", function () {
+    const mapImage = document.getElementById("mapImage");
+
+    if (!mapImage) return;
+
+    mapImage.addEventListener("mouseover", function () {
+        mapImage.src = mapImage.getAttribute("data-hover-src");
+    });
+
+    mapImage.addEventListener("mouseout", function () {
+        mapImage.src = mapImage.getAttribute("data-default-src");
+    });
 });
 
 

@@ -19,7 +19,7 @@
                 <div class="line"></div>
             </div>
             <div class="mobile-menu" id="mobile-menu">
-<!-- 				<div> -->
+
                 <div class="logo-and-button">
                      <img  src="<?php echo get_template_directory_uri(); ?>/img/лого-Photoroom1.svg" alt="">
                      <a id="close-menu">
